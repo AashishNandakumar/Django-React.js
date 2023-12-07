@@ -4,6 +4,8 @@ This repository contains the code for a web application using Django as the back
 
 ## Overview
 
+About the Project: This project is a simple application in which you can write a quote and the name of the author. Basically based on CRUD(Create Read Update and Delete) operation.
+
 This project aims to create a seamless integration between Django, a high-level Python web framework, and React.js, a JavaScript library for building user interfaces. Django serves as the API provider and handles backend operations, while React.js is used for creating a dynamic and responsive frontend.
 
 ## Getting Started
