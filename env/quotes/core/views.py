@@ -1,11 +1,12 @@
 from django.shortcuts import render
-from rest_framework.views import APIView
+from rest_framework.views import APIView #? makes the class handle APIs
 from .models import *
 from rest_framework.response import Response
 from .serializer import *
 
 # Create your views here.
 
+#? This class after extending 'APIView' becomes an API endpointso
 class ReactView(APIView):
     serializer_class = ReactSerializer
 
